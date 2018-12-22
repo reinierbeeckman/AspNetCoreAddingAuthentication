@@ -43,7 +43,6 @@ namespace WishList.Controllers
                 {
                     ModelState.AddModelError("Password", error.Description);
                 }
-
                 return View(model);
             }
 
